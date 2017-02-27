@@ -104,7 +104,7 @@
             <li><a href="/JennyInglesDesignResume.pdf">Resume</a></li>
             <li><a href="http://facebook.com/JennyMakesThings">Facebook</a></li>
             <li><a href="http://instagram.com/breakdancingcat">Instagram</a></li>
-            <li><a href="http://jennyingles.tumblr.com/">Sketchbook</a></li>
+            <li><a href="https://www.linkedin.com/in/jenny-ingles-8a491538">LinkedIn</a></li>
         </ul>
     </header>
 
@@ -115,7 +115,7 @@
                 <li><a href="/JennyInglesDesignResume.pdf">Resume</a></li>
                 <li><a href="http://facebook.com/JennyMakesThings">Facebook</a></li>
                 <li><a href="http://instagram.com/breakdancingcat">Instagram</a></li>
-                <li><a href="http://jennyingles.tumblr.com/">Sketchbook</a></li>
+                <li><a href="https://www.linkedin.com/in/jenny-ingles-8a491538">LinkedIn</a></li>
             </ul>
         </div>
     </nav>
