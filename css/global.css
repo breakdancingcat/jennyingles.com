@@ -1,0 +1,393 @@
+/*
+Goldilocks Approach to Responsive Web Design Boilerplate
+
+Author: Design by Front - @designbyfront
+Version: 0.1
+URL: http://www.goldilocksapproach.com
+----------------------------------------------------------------------------------------
+
+CONTENTS - GLOBAL.CSS
+-----------------------------------------
+1. RESET
+2. ROOT
+3. CORE TYPOGRAPHY
+4. LINKS
+5. GLOBAL LAYOUT & GLOBAL CUSTOM TYPOGRAPHY
+6. CUSTOM LAYOUT & TYPOGRAPHY (Baby bear)
+7. BROWSER AND NON-SEMANTIC STYLING
+
+CONTENTS - LAYOUT.CSS
+-----------------------------------------
+8. CUSTOM LAYOUT & TYPOGRAPHY (Daddy bear)
+9. CUSTOM LAYOUT & TYPOGRAPHY (Mummy bear)
+
+*/
+
+
+/* 1. RESET
+----------------------------------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size:100%;
+  font: inherit;
+  vertical-align: baseline;
+  }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+  }
+  
+  
+/* 2. ROOT
+----------------------------------------------------------------------------------------*/
+html { 
+  overflow-y: scroll;
+  }
+
+/* /ht Ethan Marcotte - http://front.ie/l8rJaA */
+img, embed, object, video { max-width: 100%; }
+.ie6 img.full, .ie6 object.full, .ie6 embed, .ie6 video { width: 100%; }
+
+
+
+/* 3. CORE TYPOGRAPHY
+----------------------------------------------------------------------------------------*/
+body {
+  font-family: 'cubanoregular', sans-serif;
+  font-size: 1em;
+  line-height: 1.618em;
+  color: #fff;
+  }
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0.5em;
+  line-height: 1em;
+  }
+
+article, p, ul, ol, dl, blockquote {
+    font-size: 1em;
+    line-height: 1.618em;
+    margin-bottom: 1.618em; 
+    max-width: 30em; /* Optimal width for long-form text */
+  }
+    
+ul { list-style-type: disc; margin-left: 1.618em; }
+ol { list-style-type: decimal; margin-left: 1.618em; }
+nav ul, nav ol { list-style: none; margin: 0; padding: 0;}
+
+b, strong { font-weight: bold; }
+i, em { font-style: italic; }
+small { font-size: 80%; }
+
+
+/* 4. LINKS
+----------------------------------------------------------------------------------------*/
+a, a:visited { outline: none; text-decoration:none; color:#fff; text-shadow: #1d9594 0em 0.03em 0.05em;}  
+a:hover { outline: none; text-decoration:underline;}  
+a:active, a:focus { outline: none; }
+
+
+/* 5. GLOBAL LAYOUT & GLOBAL CUSTOM TYPOGRAPHY
+----------------------------------------------------------------------------------------*/
+
+@font-face {
+    font-family: 'cubanoregular';
+    src: url('../fonts/cubano-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mission gothic';
+    src: url('../fonts/missiongothiclight.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+	font-size:2em;
+}
+
+header {
+	font-family: 'cubanoregular', sans-serif;
+	color:#fff;
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+
+/* 6. CUSTOM LAYOUT & TYPOGRAPHY (Baby bear)
+----------------------------------------------------------------------------------------*/
+
+
+
+body {
+	background-image: url("../images/houndstoothtile-x-repeat.png"), url("../images/white_paperboard.png");
+	background-repeat:repeat-x, repeat;
+	background-position:0px 0px;
+
+}
+
+header {
+	max-width:33em;
+	min-width:17em;
+	margin-top:0em;
+	text-align: center;
+}
+
+header h1 {
+	display:inline-block;
+	margin:0;
+	padding:0;
+	max-width:9em;
+	font-size:2.5em;
+	text-shadow: #1d9594 0em 0.03em 0.05em;
+	text-align: center;
+}
+
+header p {
+	margin:.5em 0;
+	height:128px;
+	line-height:1.5em;
+	font-size:1.02em;
+	text-shadow: #1d9594 0em 0.08em 0.3em;
+	letter-spacing:.05em;
+
+}
+
+#logo  {
+	background-image:url(../images/logohead.png); 
+	background-repeat:no-repeat;
+	background-size:100px 100px;
+	width: 100px; 
+	height: 100px; 
+	margin:0 auto .3em auto;
+	position:relative;
+	display:block;
+	text-indent:-9999999px;
+
+	
+}
+
+nav {
+	width:100%;
+	background:#9bd8dd;
+}
+
+.mobile-menu-container {
+	margin:0 auto;
+	max-width:33.15em;
+	background:transparent;
+}
+
+.menu  {
+	max-width: 30em;
+	padding: 1.1em 1.618em;
+	margin:0 auto;   
+	text-shadow: #1d9594 0em 0.08em 0.3em;
+}
+
+	.menu:hover {
+		cursor:pointer;
+	}
+
+ul.mobile-menu-list {
+	max-width:100%;
+}
+	
+.mobile-menu-list li {
+	display:block;
+	padding: 1em 3em;
+}
+
+	.mobile-menu-list li:last-child {
+		padding-bottom:1em;
+	}
+
+	.mobile-menu-list li:hover {
+		background:#67c8c7;
+		cursor:pointer;
+	}
+
+.mobile-menu-list li a {
+	text-shadow: #1d9594 0em 0.08em 0.3em;
+}
+
+.full-page-nav {
+	display:none;
+}
+	
+#container {
+    padding: 0.809em;
+    max-width: 30em;
+    margin: auto;
+  }
+
+
+  
+aside { width: 100%; }
+
+
+ul.no-list-style {
+	list-style: none;
+	padding:0;
+	margin:1.2em 0 0 0;
+}
+
+#thumbnails li {
+	display:inline-block;
+	float:left;
+	height:10em;
+	margin-bottom: 1.618em;
+	border-radius: .2em;
+	overflow:hidden;
+	width:100%;
+	box-shadow: 0px 1px 2px #8f9999;
+}
+
+#thumbnails li a {
+	height:10em;
+	width:100%;
+	color:black;
+	text-shadow: 0em -1px 1px #fff, 0em 1px 0px rgba(0,0,0, .5);
+	
+}
+
+#thumbnails li a:hover {
+	text-decoration: none;
+}
+
+.thumbnail-selector {
+	overflow:hidden;
+}
+	
+.boxcaption{  
+    background: rgba(255, 255, 255, .8);  
+	position:relative;
+	height:100%;
+	padding: .8em;
+}  
+
+.sidebar {
+	width:100%;
+	float:left;
+}
+
+.extra-thumbnails {
+	display:none; 
+}
+
+.see-more-work {
+	width:60em;
+	text-align:right;
+}
+
+
+
+footer {
+	width:100%;
+	float:left;
+	vertical-align: top;
+	background-color:#67c8c7;
+	
+}
+
+#instagram, #facebook {
+	text-align:center;
+	margin-bottom:2em;
+	text-shadow: #1d9594 0em 0.05em 0.2em;
+
+}
+
+#daddyinstagram, #daddyfacebook, #mommainstagram, #mommafacebook {
+	display:none;	
+}
+
+	
+#copyright {
+	width:100%;
+	font-size:2em;
+	text-align:center;
+	padding:1em 0;
+
+}	
+
+/* THUMBNAILS */
+
+#PandemicPrep {
+	background-image: url(../images/thumbnails/PandemicPrep.png);
+	background-size:21.5em;
+	background-position: 50% 10%;	
+}
+
+#Dachshund {
+	background-image: url(../images/thumbnails/Dachshund.png);
+	background-size:30em;
+	background-position: 50% 0%;	
+}
+
+#DontEatThis {
+	background-image: url(../images/thumbnails/DontEatThis.png);
+	background-size:30em;
+	background-position: 50% 0%;	
+}
+
+#MMK {
+	background-image: url(../images/thumbnails/MMK.png);
+	background-size:480px 226px;
+	background-position: 50% 0%;	
+}
+
+#LadiesNight {
+	background-image: url(../images/thumbnails/LadiesNight.png);
+	background-size:30em;
+	background-position: 15%;	
+}
+
+#CampOut {
+	background-image: url(../images/thumbnails/CampOut.png);
+	background-size:480px 226px;
+	background-position: 50% 60%;	
+}
+
+#BusinessCard {
+	background-image: url(../images/thumbnails/BusinessCard.png);
+	background-size:130%;
+	background-position: 0% 50%;	
+}
+
+#WesternBabyShower {
+	background-image: url(../images/thumbnails/WesternBabyShower.png);
+	background-size:30em;
+	background-position: 50% 50%;	
+}
+
+#Strawberry {
+	background-image: url(../images/thumbnails/Strawberry.png);
+	background-size:100%;
+	background-position: 0% 0%;	
+	display: block;
+}
+
+	
+/* 7. BROWSER AND NON-SEMANTIC STYLING
+----------------------------------------------------------------------------------------*/
+.cf:before, .cf:after { content: ""; display: block; }
+.cf:after { clear: both; }
+.ie6 .cf { zoom: 1 }

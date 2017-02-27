@@ -1,0 +1,429 @@
+/* 10. All Pieces (Daddy Bear)
+----------------------------------------------------------------------------------------*/
+
+.xx {
+	margin-top: 8em;
+	color: #000;
+	max-width: 60em;
+	font-family:mission gothic;
+
+}
+
+.xx a, .xx a:visited { outline: none; text-decoration:none; font-weight:bold; color:#000; text-shadow: #1d9594 0em 0.03em 0.05em;}  
+.xx a:hover { outline: none; text-decoration:underline;}  
+.xx a:active, .xx a:focus { outline: none; }
+
+.xx h3 {
+	font-size:2em;
+	text-shadow: #fff 0em 0.08em 0em, #fff 0em -0.08em 0em;
+	letter-spacing:.05em;
+	font-family:cubanoregular;
+}
+
+.xx p {
+	
+	max-width: 60em;
+}
+
+.xx div {
+	margin: 0 0 2em 0;
+	box-shadow: 0px 1px 2px #8f9999;
+}
+
+.xx div img {
+	padding: 0px;
+	width:100%;
+	display:block;
+}
+
+	/* Mummy Bear */
+@media screen and (min-width: 33.15em) and (max-width: 70em) { 
+
+	.xx {
+		margin-top:3em;
+	}
+
+}
+
+	/* Baby Bear */
+@media screen and (min-width: 0em) and (max-width: 33.15em) { 
+
+	.xx {
+		margin-top:2em;
+	}
+
+	.xx div {
+		width:100%;
+	}
+}
+
+
+/* 11. Pandemic Prep (Daddy Bear)
+----------------------------------------------------------------------------------------*/
+
+#pandemic-prep .one {
+	float: left;
+}
+
+#pandemic-prep .one img {
+	width:18em;
+	
+}
+
+#pandemic-prep .two {
+	margin-left:20em;
+	width:40em;
+}
+
+#pandemic-prep .three {
+	margin-left:20em;
+	width:40em;
+}
+
+#pandemic-prep .four {
+	width:60em;
+}
+
+	/* Baby & Mummy Bear */
+@media screen and (min-width: 0em) and (max-width: 70em) { 
+
+	#pandemic-prep .one {
+		background-image: url(../images/PandemicPrep/pp-sketch-big.png);
+		background-position: 0em -9.3em;
+		background-size: 30em;
+		width:100%;
+		height:10em;
+		float:none;
+	}
+
+	#pandemic-prep .one img {
+		display:none;
+	}
+
+	#pandemic-prep .two {
+		margin-left:0;
+		width:100%;
+		height: inherit;
+	}
+
+	#pandemic-prep .three {
+		margin-left:0;
+		width:100%;
+		height: inherit;
+	}
+
+	#pandemic-prep .four {
+		width:100%;
+		
+	}
+}
+
+/* 12. Dachshund (Daddy Bear)
+----------------------------------------------------------------------------------------*/
+
+#dachshund .one {
+	width:29em;
+	float: left;
+}
+
+#dachshund .two {
+	margin-left:31em;
+	width:29em;
+}
+
+#dachshund .three {
+	height:inherit;
+	width:60em;
+}
+
+	/* Baby & Mummy Bear */
+@media screen and (min-width: 0em) and (max-width: 70em) { 
+
+	#dachshund .one {
+		width:100%;
+		height:inherit;
+		float: none;
+	}
+
+	#dachshund .two {
+		width:100%;
+		height:inherit;
+		margin: 0 0 2em 0;
+	}
+
+	#dachshund .three {
+		width:100%;
+		height:inherit;
+	}
+}
+
+/* 13. Don't Eat This (Daddy Bear)
+----------------------------------------------------------------------------------------*/
+
+#donteatthis .one {
+	width:40em;
+	float: left;
+}
+
+#donteatthis .two {
+	margin-left:42em;
+	width:18em;
+}
+
+#donteatthis .three {
+	margin-left:42em;
+	width:18em;
+}
+
+	/* Baby & Mummy Bear */
+@media screen and (min-width: 0em) and (max-width: 70em) { 
+
+	#donteatthis .one {
+		width:100%;
+		height: inherit;
+		float: none;
+		margin-left: 0;
+	}
+
+	#donteatthis .two {
+		width:100%;
+		height: 10em;
+		margin-left: 0;
+		overflow: hidden;
+	}
+
+	#donteatthis .three {
+		width:100%;
+		height: 10em;
+		margin-left: 0;
+		overflow: hidden;
+	}
+}
+
+/* 14. MMK (Daddy Bear)
+----------------------------------------------------------------------------------------*/
+
+#mmk .one {
+	background-color: #000;
+	height:inherit;
+	width:40em;
+	float: left;
+}
+
+#mmk .two {
+	background-color: #000;
+	height:inherit;
+	margin-left:42em;
+	width:18em;
+}
+
+#mmk .three {
+	margin-left:42em;
+	height:inherit;
+	background-color: #000;
+	width:18em;
+}
+
+	/* Baby & Mummy Bear */
+@media screen and (min-width: 0em) and (max-width: 70em) { 
+
+	#mmk .one {
+		width:100%;
+		float: none;
+	}
+
+	#mmk .two {
+		width:100%;
+		margin: 0 0 2em 0;
+	}
+
+	#mmk .three {
+		width:100%;
+		margin: 0;
+	}
+}
+
+/* 15. Ladies Night (Daddy Bear)
+----------------------------------------------------------------------------------------*/
+
+#ln .one {
+	background-position: 0% 0%;
+	background-color: #ebe1e6;
+	width:40em;
+	height:inherit;
+	float: left;
+}
+
+#ln .two {
+	background-image: url(../images/LadiesNight/sc-logo.png);
+	background-size:90%;
+	background-color: #fff;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	margin-left:42em;
+	height:17em;
+	width:18em;
+}
+
+	/* Baby & Mummy Bear */
+@media screen and (min-width: 0em) and (max-width: 70em) { 
+
+	#ln .one {
+		width:100%;
+		float: none;
+	}
+
+	#ln .two {
+		width:100%;
+		height:15em;
+		background-size: 15em;
+		background-position: 50 50%;
+		margin: 0 0 2em 0;
+	}
+}
+
+/* 16. Camp out (Daddy Bear)
+----------------------------------------------------------------------------------------*/
+
+#co .one {
+	width:40em;
+	float: left;
+}
+
+#co .two {
+	margin-left:42em;
+	width:18em;
+}
+
+	/* Baby & Mummy Bear */
+@media screen and (min-width: 0em) and (max-width: 70em) { 
+
+	#co .one {
+		width:100%;
+		float: none;
+	}
+
+	#co .two {
+		width:100%;
+		margin: 0 0 2em 0;
+	}
+}
+
+/* 17. Business Card (Daddy Bear)
+----------------------------------------------------------------------------------------*/
+
+#bc .one {
+	width:38em;
+	float: left;
+}
+
+#bc .two {
+	width:20em;
+	margin-left:40em;
+}
+
+	/* Baby & Mummy Bear */
+@media screen and (min-width: 0em) and (max-width: 70em) { 
+
+	#bc .one {
+		width:100%;
+		float: none;
+	}
+
+	#bc .two {
+		width:100%;
+		margin-left:0em;
+}
+}
+
+/* 18. Strawberry (Daddy Bear)
+----------------------------------------------------------------------------------------*/
+
+#sb .one {
+	width:40em;
+	float: left;
+}
+
+#sb .two {
+	margin-left:42em;
+	width:18em;
+}
+
+	/* Baby & Mummy Bear */
+@media screen and (min-width: 0em) and (max-width: 70em) { 
+
+	#sb .one {
+		width:100%;
+		float: none;
+	}
+
+	#sb .two {
+		width:100%;
+		margin: 0 0 2em 0;
+	}
+}
+
+/* 19. About Me (Daddy Bear)
+----------------------------------------------------------------------------------------*/
+
+#aboutme ul {
+	font-family:mission gothic;
+}
+
+#aboutme ul h3 {
+	font-family:cubanoregular;
+}
+
+#aboutme .one {
+	width:40em;
+	float: left;
+	box-shadow: 0 0;
+}
+
+#aboutme .one img {
+	width:20em;
+	box-shadow: 0px 1px 2px #8f9999;
+	border-radius: .2em;
+	float:right; 
+	margin-left:2em; 
+	margin-bottom:2em;
+}
+
+
+#aboutme .services {
+	display: inline-block; 
+	vertical-align: top; 
+	margin-left:3em;
+	float:none;
+}
+
+	/* Mummy Bear */
+@media screen and (min-width: 24em) and (max-width: 70em) { 
+
+	#aboutme .one {
+		width:100%;
+		float: none;
+	}
+
+	#aboutme .one img {
+		max-width:10em;
+	}
+
+	#aboutme .services {
+		display:block;
+		float:right;
+	}
+}
+
+	/* Baby Bear */
+@media screen and (min-width: 0em) and (max-width: 30em) { 
+
+	#aboutme .one img {
+		width:100%;
+	}
+
+	#aboutme .services {
+		margin-left:1.5em;
+	}
+
+}

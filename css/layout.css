@@ -1,0 +1,386 @@
+/* 8. CUSTOM LAYOUT & TYPOGRAPHY (Daddy bear)
+----------------------------------------------------------------------------------------*/
+
+body {
+background-position: 0 -90px;
+}
+
+header {
+	max-width:60em;
+	margin-top:0em;
+}
+
+header h1 {
+	display:inline-block;
+	margin:0 0 0 2.43em;
+	max-width: 60em;
+	text-align: left;
+	padding:0;
+	font-size:4.8em;
+	text-shadow: #1d9594 0em 1px 1px;
+}
+
+header p {
+	max-width:60em;
+	margin:1em 0 1em 11.7em;
+	height: inherit;
+	text-align: left;
+	line-height:1.5em;
+	font-size:1.02em;
+	text-shadow: #1d9594 0em 1px 1px;
+	letter-spacing:.05em;
+
+}
+
+#logo  {
+	background-image:url(../images/logohead.png); 
+	background-size:170px 170px;
+	background-repeat:no-repeat;
+	width: 170px; 
+	height: 170px; 
+	margin:.8em 1.5em 0 auto;
+	position:absolute;
+	text-indent:-9999999px;
+}
+
+
+.mobile-menu-container {
+	display:none;
+}
+
+.full-page-nav {
+	display:inline-block;
+
+}
+
+ul.full-page-nav {
+    margin:0 0 0 11.6em;
+	padding:0;
+	max-width:60em;
+
+	
+}
+
+.full-page-nav li {
+	display:inline-block;
+	margin:0 2.7em 0 0;
+	padding:0;
+}
+
+.full-page-nav li:last-child {
+	display:inline-block;
+	margin:0;
+}
+
+.full-page-nav li a, .full-page-nav li a:visited {
+	color:white;
+	font-size:2em;
+	text-shadow: #1d9594 0em 1px 1px;
+}
+
+.full-page-nav li a:hover {
+	color:black;
+}
+
+
+
+.sidebar {
+	width:23em;
+	float:right;
+	z-index: 1;
+}
+
+#container {
+	padding: 1.618em;
+	margin: 0 auto; 
+	max-width: 60em;
+}
+
+/* pre roadtrip 
+ul#thumbnails, #thumbnail-article  {
+	max-width:35.382em;
+}
+
+#thumbnail-article {
+	z-index:200;
+}
+
+#thumbnails li {
+	width:16.88em;
+	height:13em;
+}
+
+#thumbnails li:nth-child(even) {
+	margin-left:1.618em;
+}
+
+*/
+
+ul#thumbnails, #thumbnail-article  {
+	max-width:60em;
+}
+
+#thumbnail-article {
+	z-index:200;
+	margin-top:8.1em;
+}
+
+#thumbnails li {
+	width:18.9em;
+	height:14em;
+	margin-right:1.618em;
+}
+
+#thumbnails li:nth-child(3n) {
+	margin-right:0em;
+}
+
+
+#profile {
+	display: inline-block;	
+	padding-right: 1.5em;
+}
+
+#skills {
+	display:inline-block;
+	width:28.2em;
+	margin-top:0;
+	vertical-align:top;
+}
+
+.extra-thumbnails {
+	display:block;
+}
+
+ul#thumbnails .extra-thumbnails {
+	margin-top:0px;
+}
+
+
+/* THUMBNAILS */
+
+#PandemicPrep {
+	background-size:480px;
+	background-position: 50%;	
+}
+
+#Dachshund {
+	background-size:480px;
+	background-position: 50%;	
+}
+
+#DontEatThis {
+	background-size:480px;
+	background-position: 50%;	
+}
+
+#MMK {
+	background-size:480px;
+	background-position: 50%;	
+}
+
+#LadiesNight {
+	background-size:480px;
+	background-position: 20%;	
+}
+
+#CampOut {
+	background-size:480px;
+	background-position: 50%;	
+}
+
+#BusinessCard {
+	background-size:480px;
+	background-position: 12%;	
+}
+
+#WesternBabyShower {
+	background-size:480px;
+	background-position: 50%;	
+}
+
+#Strawberry {
+	background-size:480px;
+	background-position: 0%;	
+}
+
+#instagram, #facebook, #mommainstagram, #mommafacebook {
+	display:none;
+}
+
+#daddyinstagram {
+margin: 0 .6em 0 0;
+}
+
+#daddyinstagram, #daddyfacebook {
+	display:inline-block;	
+	vertical-align: text-top;
+	text-shadow: #1d9594 0 1px 1px;
+}
+
+#daddyfacebook {
+	width: 60%;
+}
+
+
+/* 9. CUSTOM LAYOUT & TYPOGRAPHY (Mummy bear)
+----------------------------------------------------------------------------------------*/
+@media screen and (min-width: 30em) and (max-width: 70em) {
+
+body {
+background-position: 0 0;
+}
+
+header {
+	max-width:30em;
+	margin-top:0em;
+}
+
+header h1 {
+	display:inline-block;
+	margin:0;
+	padding:0;
+	max-width: 30em;
+	font-size:3em;
+	text-shadow: #1d9594 0 1px 1px;
+	text-align: center;
+}
+
+header p {
+	max-width:60em;
+	margin:.5em 0;
+	line-height:1.5em;
+	height: inherit;
+	font-size:1.02em;
+	text-shadow: #1d9594 0 1px 1px;
+	letter-spacing:.05em;
+	text-align: center;
+
+}
+
+#logo  {
+	background-image:url(../images/logohead.png); 
+	background-repeat:no-repeat;
+	background-size:115px 115px;
+	width: 115px; 
+	height: 115px; 
+	margin:0 auto 1em auto;
+	position:relative;
+	display:block;
+	text-indent:-9999999px;
+
+	
+}
+
+
+nav {
+	width:100%;
+	position: relative;
+	top:25px;
+}
+.mobile-menu-container {
+	display:block;
+}
+
+.full-page-nav {
+	display:none;
+}
+
+#container { width: 30em; }
+
+#thumbnail-article {
+	z-index:200;
+	margin-top:3em;
+}
+
+ul#thumbnails {
+	width: 100%;
+}
+
+#thumbnails li {
+	width:14.19em;
+	height:10em;
+	margin-right:0;
+}
+
+#thumbnails li:nth-child(even) {
+	margin-left:1.618em;
+}
+
+.sidebar {
+	width:100%;
+	float:left;
+}
+
+.extra-thumbnails {
+	display:none;
+}
+
+
+
+/* THUMBNAILS */
+
+#PandemicPrep {
+	background-size:22em;
+	background-position: 50% 10%;	
+}
+
+#Dachshund {
+	background-size:22em;
+	background-position: 50% 0%;	
+}
+
+#DontEatThis {
+	background-size:22em;
+	background-position: 50% 0%;	
+}
+
+#MMK {
+	background-size:22em;
+	background-position: 50% 0%;	
+}
+
+#LadiesNight {
+	background-size:22em;
+	background-position: -1.5em 0em;	
+}
+
+#CampOut {
+	background-size:21.5em;
+	background-position: 50% 60%;	
+}
+
+#BusinessCard {
+	background-size:150%;
+	background-position: 10% 0%;	
+}
+
+#WesternBabyShower {
+	background-size:22em;
+	background-position: 50% 0%;	
+}
+
+li#Strawberry {
+	display: none !important;
+	background-size:22.5em;
+	background-position: 0% 0%;	
+}
+
+
+
+#instagram, #facebook, #daddyinstagram, #daddyfacebook {
+	display:none;
+}
+
+#mommainstagram, #mommafacebook {
+	display:inline-block;	
+	vertical-align: text-top;
+	text-shadow: #1d9594 0em 1px 1px;
+	width: 100%;
+}
+
+}
+
+footer {
+margin-top: 4em;
+}
