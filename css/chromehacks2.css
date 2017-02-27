@@ -1,0 +1,10 @@
+/* 9. CUSTOM LAYOUT & TYPOGRAPHY (Mummy bear)
+----------------------------------------------------------------------------------------*/
+@media screen and (min-width: 30em) and (max-width: 63.236em) {
+
+	#thumbnails a:last-child li {
+		position:relative; top:-1.5em; border-spacing:0;
+	}
+
+	
+}
